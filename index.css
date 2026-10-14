@@ -1,0 +1,37 @@
+        table, th, td {
+            border: 1px solid rgb(224, 176, 4);
+            /* border-collapse: collapse; */
+            border-radius: 10px;
+            /* border-style: dotted; */
+            border-style: dashed;
+        }
+        
+        h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+        
+        .caption {
+            font-family: arial;
+            font-size: 20px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .course {
+            color: black;
+            font-size: 20px;
+        }
+        .course-container {
+            text-align: center;
+        }
+        .course:hover {
+            color: rgb(233, 151, 0);
+        }
+
+        .logo {
+            width: 150px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
