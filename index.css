@@ -1,11 +1,4 @@
-        table, th, td {
-            border: 1px solid rgb(224, 176, 4);
-            /* border-collapse: collapse; */
-            border-radius: 10px;
-            /* border-style: dotted; */
-            border-style: dashed;
-        }
-        
+
         h1 {
             font-size: 50px;
             text-align: center;
@@ -17,10 +10,16 @@
             text-align: center;
             font-weight: bold;
         }
+        .programmer {
+            color: darkblue;
+        }
+        .ikaw {
+            color: darkred;
+        }
 
         .course {
             color: black;
-            font-size: 20px;
+            font-size: 18px;
         }
         .course-container {
             text-align: center;
@@ -34,4 +33,26 @@
             position: absolute;
             top: 0px;
             right: 0px;
+        }
+
+        table, th, td {
+            border: 1px dashed #1733ce;
+            /* border-collapse: collapse; */
+            border-radius: 5px;
+            /* border-style: dotted; */
+            /* border-style: solid; */
+
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: 300px;
+            margin-left: auto;
+        }
+
+        input {
+            font-size: 14px;
+            border: solid green;
+            border-radius: 10px;
+        }
+        input, label {
+            margin-top: 5px;
         }
