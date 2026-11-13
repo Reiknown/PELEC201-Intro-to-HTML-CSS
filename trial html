@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Login Page</title>
+
+  <style>
+    body {
+      background: linear-gradient(to right, lightblue, lightgreen);
+      background-attachment: fixed;
+      font-family: Arial, sans-serif;
+    }
+    .login-box {
+      background-color: white;
+      width: 350px;
+      margin: 40px auto;
+      padding: 30px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+    }
+
+    label {
+      display: block;
+      text-align: left;
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: steelblue;
+      color: white;
+      border: none;
+      border-radius: 5px;
+
+    }
+  </style>
+</head>
+
+
+<body>
+  <div class="login-box">
+    <h1>Hello Again!</h1>
+    <p><small>Please log in to your account</small></p>
+    
+    <form action="#" method="post">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+      <input type="checkbox" id="remember" name="remember" style="width:auto">
+      <label for="remember" style="display: inline;">Remember Me</label>
+      <br><br>
+
+      <button type="submit">Login</button>
+    </form>
+
+    <br>
+    <a href="#">Forgot password?</a>
+    <p>Don't have an account <a href="#">Signup</a></p>
+
+  </div>
+  
+</body>
+
+</html>
